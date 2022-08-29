@@ -7,7 +7,10 @@ package main
 import (
   oktaUtils "https://github.com/dhyanio/go-envparse"
 )
-oktaUtils.ParseEnvironment()
+
+func main() {
+  oktaUtils.ParseEnvironment()
+}
 ```
 
 .env file
