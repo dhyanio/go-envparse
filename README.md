@@ -5,7 +5,7 @@ Parsing environment variables from .env files.
 package main
 
 import (
-oktaUtils "<project>/util/okta"
+  oktaUtils "https://github.com/dhyanio/go-envparse"
 )
 oktaUtils.ParseEnvironment()
 ```
